@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
     bool isJumping;
     float speed;
-    [SerializeField] float force = 1000;
+    [SerializeField] float force = 100;
     [SerializeField] float torque = 1000;
     (float x, float y) movement = (0,0);
     new Rigidbody rigidbody;
@@ -28,6 +28,7 @@ public class Player : MonoBehaviour {
 
     void FixedUpdate() {
         rigidbody.AddTorque(new Vector3(movement.x, movement.y, 0)*torque, ForceMode.VelocityChange);
+        transform.localRotation = Quaternion.Euler(0,90,transform.localEulerAngles.z);
         foreach (var leg in legs) {
             foreach (var collider in leg.GetComponents<Collider>()) collider.enabled = isJumping;
             leg.localPosition = new Vector3(
@@ -35,8 +36,8 @@ public class Player : MonoBehaviour {
                     current: leg.localPosition.x,
                     target: (isJumping)?0:0.25f,
                     currentVelocity: ref speed,
-                    smoothTime: 0.01f,
-                    maxSpeed: 1000));
+                    smoothTime: 0.1f,
+                    maxSpeed: 100));
         }
     }
 }

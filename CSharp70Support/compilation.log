@@ -1,17 +1,17 @@
 ********************************************************************************
-*                        Saturday, 27 May 2017 00:50:51                        *
+*                      Saturday, May 27, 2017 2:08:55 AM                       *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
+Platform: Windows
 Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
 Compiler: Microsoft C# 7.0
 
 - Compilation -----------------------------------------------
 
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d37b8aa2801164aa4b43b580217902b1 -debug:portable
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a4e9f7edc68626e419e7cef014c2314e 
 Exit code: 0
 Elapsed time: 2.75 sec
 
@@ -19,132 +19,40 @@ Elapsed time: 2.75 sec
 
 - Compiler errors (0 lines):
 
-PDB to MDB conversion skipped
-File "Temp/Assembly-CSharp.pdb" deleted
-********************************************************************************
-*                        Saturday, 27 May 2017 00:51:17                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
+- PDB to MDB conversion --------------------------------------
 
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-526eab95147c8459aa6182e05b27842e -debug:portable
-Exit code: 1
-Elapsed time: 2.26 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets/Scripts/Player.cs(20,30): error CS1061: 'Collider' does not contain a definition for 'contacts' and no extension method 'contacts' accepting a first argument of type 'Collider' could be found (are you missing a using directive or an assembly reference?)
-********************************************************************************
-*                        Saturday, 27 May 2017 00:52:29                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b1044cdd517fd4bf798f60eb1c0bd342 -debug:portable
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 2.75 sec
+Elapsed time: 0.10 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                      Saturday, May 27, 2017 2:13:21 AM                       *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.0.0.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 7.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ba43102f6e50bd44ab722874562ff434 
+Exit code: 0
+Elapsed time: 2.65 sec
 
 - Compiler output (0 lines):
 
 - Compiler errors (0 lines):
 
-PDB to MDB conversion skipped
-File "Temp/Assembly-CSharp.pdb" deleted
-********************************************************************************
-*                        Saturday, 27 May 2017 00:53:47                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
+- PDB to MDB conversion --------------------------------------
 
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-300b97b9a887c413cb8eeea8bc0697a5 -debug:portable
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
 Exit code: 0
-Elapsed time: 2.77 sec
+Elapsed time: 0.10 sec
 
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-PDB to MDB conversion skipped
-File "Temp/Assembly-CSharp.pdb" deleted
-********************************************************************************
-*                        Saturday, 27 May 2017 00:54:23                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-0130a9001840946b2a6310ea96364dde -debug:portable
-********************************************************************************
-*                        Saturday, 27 May 2017 00:54:24                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-3fac37ca662304629be4f926b67b3dca -debug:portable
-Exit code: 0
-Elapsed time: 2.79 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-PDB to MDB conversion skipped
-File "Temp/Assembly-CSharp.pdb" deleted
-********************************************************************************
-*                        Saturday, 27 May 2017 00:55:44                        *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 2.0.0.0
-Platform: Mac
-Target assembly: Assembly-CSharp.dll
-Project directory: /Users/bescott/Developer/pinball-wizard
-Unity 'Data' or 'Frameworks' directory: /Applications/Unity/Unity.app/Contents
-Compiler: Microsoft C# 7.0
-
-- Compilation -----------------------------------------------
-
-Process: /Library/Frameworks/Mono.framework/Commands/mono
-Arguments: "/Users/bescott/Developer/pinball-wizard/CSharp70Support/Roslyn/csc.exe" -nostdlib+ -noconfig -nologo -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/mscorlib.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Core.dll" -r:"/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ede904d8a7efc4c3f814a787e169f246 -debug:portable
-Exit code: 0
-Elapsed time: 2.75 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-PDB to MDB conversion skipped
-File "Temp/Assembly-CSharp.pdb" deleted
+- pdb2mdb.exe output (0 lines):
