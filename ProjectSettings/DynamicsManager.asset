@@ -5,7 +5,7 @@ PhysicsManager:
   m_ObjectHideFlags: 0
   serializedVersion: 3
   m_Gravity: {x: 0, y: -9.81, z: 0}
-  m_DefaultMaterial: {fileID: 13400000, guid: 9083db5f2626f4e2ca5cc3bab41bbe88, type: 2}
+  m_DefaultMaterial: {fileID: 13400000, guid: e60bcbf98609641cc874bd0ee2ec5a18, type: 2}
   m_BounceThreshold: 2
   m_SleepThreshold: 0.005
   m_DefaultContactOffset: 0.01
@@ -16,3 +16,5 @@ PhysicsManager:
   m_EnableAdaptiveForce: 1
   m_EnablePCM: 1
   m_LayerCollisionMatrix: fffefffffffefffffffefffffffffffffffefffffffeffffffffffffffffffffc8f8fffffffcfffffffaffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  m_AutoSimulation: 1
+  m_AutoSyncTransforms: 1

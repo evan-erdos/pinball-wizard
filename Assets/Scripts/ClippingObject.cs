@@ -10,9 +10,10 @@ using System.Linq;
     public Vector3 plane3Position = Vector3.zero, plane3Rotation = new Vector3(0,0,90);
 
     public void Start() { }
-    public void OnEnable() => GetComponent<MeshRenderer>().sharedMaterial =
-        new Material(Shader.Find("Custom/StandardClippable")) {
-            hideFlags = HideFlags.HideAndDontSave };
+    public void OnEnable() {
+        GetComponent<MeshRenderer>().sharedMaterial =
+            new Material(Shader.Find("Custom/StandardClippable")) {
+                hideFlags = HideFlags.HideAndDontSave }; }
 
     void DrawPlane(Vector3 position, Vector3 euler) {
         var forward = Quaternion.Euler(euler) * Vector3.forward;
