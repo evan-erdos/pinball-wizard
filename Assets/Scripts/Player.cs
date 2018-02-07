@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 class Player : MonoBehaviour {
-    [SerializeField] protected float power = 10;
-    [SerializeField] protected float delay = 0.4f;
-    [SerializeField] protected float impulse = 20;
-    [SerializeField] protected float torque = 1000;
-    [SerializeField] protected float length = 0.25f;
+    [SerializeField] float power = 10;
+    [SerializeField] float delay = 0.4f;
+    [SerializeField] float impulse = 0.2f;
+    [SerializeField] float torque = 1000;
+    [SerializeField] float length = 0.25f;
 
     bool isGrounded, isJumping, isRolling;
     float jumpAngle = 0.5f;
@@ -22,8 +22,7 @@ class Player : MonoBehaviour {
         if (isRolling) rigidbody.AddForce(-normal*impulse);
         rigidbody.AddForceAtPosition(
             normal*Vector3.Dot(normal,transform.forward)*impulse,
-            transform.position-(point-transform.position),
-            ForceMode.VelocityChange);
+            transform.position-(point-transform.position), ForceMode.VelocityChange);
     }
 
 
@@ -31,8 +30,7 @@ class Player : MonoBehaviour {
         rigidbody = GetComponent<Rigidbody>();
         foreach (var c in GetComponentsInChildren<Collider>())
             if (c.name=="leg") children.Add(c.transform);
-        foreach (var leg in children)
-            colliders.AddRange(leg.GetComponents<Collider>());
+        foreach (var c in children) colliders.AddRange(c.GetComponents<Collider>());
     }
 
 
@@ -68,20 +66,15 @@ class Player : MonoBehaviour {
     }
 
     void OnCollisionEnter(Collision collision) {
-        isGrounded = true;
-        touch = transform.position-collision.contacts.FirstOrDefault().point;
-    }
-
-    void OnCollisionExit(Collision collision) {
-        isGrounded = false; touch = Vector3.up; }
+        isGrounded = true; touch = transform.position-collision.contacts.FirstOrDefault().point; }
 
     void OnCollisionStay(Collision collision) {
-        foreach (var hit in collision.contacts)
-            if (hit.thisCollider.name=="leg")
-                ApplyLegForce(hit.point, hit.normal); }
+        foreach (var hit in collision.contacts) if (hit.thisCollider.name=="leg")
+            ApplyLegForce(hit.point, hit.normal); }
+
+    void OnCollisionExit(Collision collision) { isGrounded = false; touch = Vector3.up; }
 
     // void OnTriggerStay(Collider c) => rigidbody.AddForce(
-    //     (transform.position-c.transform.localPosition).normalized*impulse,
-    //     ForceMode.Impulse);
+    //     (transform.position-c.transform.localPosition).normalized*impulse, ForceMode.Impulse);
 
 }

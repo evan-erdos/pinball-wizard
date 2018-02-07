@@ -1,0 +1,379 @@
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:01:50 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-04d47e48dfac46d40a87fb5fabffac1c
+Exit code: 0
+Elapsed time: 2.87 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:03:04 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-3d2ae78fdb1d2a64cb9605f0bc28b9e5
+Exit code: 0
+Elapsed time: 2.97 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:04:53 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-2e7da0704a6d01a4eab1731738dae6c3
+Exit code: 0
+Elapsed time: 3.02 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:05:30 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-70366426a7818694e918b9bb744910c6
+Exit code: 0
+Elapsed time: 3.06 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.19 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:06:15 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-f99f110ae2892ea4da6499ef3b320a64
+Exit code: 0
+Elapsed time: 2.95 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.17 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:06:32 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-c86f03fa27fba7843abb02daa20d5a7b
+Exit code: 0
+Elapsed time: 2.86 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:08:09 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-9d2d8226842f16a408f831238d61c428
+Exit code: 1
+Elapsed time: 2.29 sec
+
+- Compiler output (1 line):
+0: Assets\Scripts\Player.cs(23,56): error CS0117: 'Mathf' does not contain a definition for 'Dot'
+
+- Compiler errors (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:08:21 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-cd18d5106ae1cdb4e99b767d302b3d1d
+Exit code: 1
+Elapsed time: 2.29 sec
+
+- Compiler output (1 line):
+0: Assets\Scripts\Player.cs(23,44): error CS0019: Operator '-' cannot be applied to operands of type 'Vector3' and 'float'
+
+- Compiler errors (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:08:37 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-7fa131a5faed84641929346dbb6f195d
+Exit code: 0
+Elapsed time: 2.87 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.17 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:09:24 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-b4b02da9ec7d3df4683f54280ee9a29d
+Exit code: 1
+Elapsed time: 2.30 sec
+
+- Compiler output (1 line):
+0: Assets\Scripts\Player.cs(23,50): error CS0019: Operator '*' cannot be applied to operands of type 'Vector3' and 'Vector3'
+
+- Compiler errors (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:12:41 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-73e3af1baf5429e45875cc230b9a0662
+Exit code: 0
+Elapsed time: 2.84 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.17 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:13:12 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-4111861ff880a4e49a37360fe2f3bf70
+Exit code: 0
+Elapsed time: 2.90 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.17 sec
+
+- pdb2mdb.exe output (0 lines):
+
+********************************************************************************
+*                    Wednesday, February 7, 2018 6:14:46 AM                    *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 2.6.0.119
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\evan-erdos\Developer\pinball-wizard
+Target profile directory: C:\Program Files\Unity 2017\Editor\Data\MonoBleedingEdge\lib\mono\4.5
+Unity Mono directory: C:/Program Files/Unity 2017/Editor/Data/MonoBleedingEdge
+Compiler: Microsoft C# 7.2 (2.0.0.60925)
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo @Temp/UnityTempFile-f2bab6f1762811346b917cbce744704b
+Exit code: 0
+Elapsed time: 3.02 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\evan-erdos\Developer\pinball-wizard\CSharp70Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.16 sec
+
+- pdb2mdb.exe output (0 lines):
+

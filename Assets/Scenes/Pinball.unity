@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1002218364}
-  m_IndirectSpecularColor: {r: 0.49760368, g: 0.21796893, b: 0.13229597, a: 1}
+  m_IndirectSpecularColor: {r: 0.49759108, g: 0.21796694, b: 0.13230467, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -8337,6 +8337,76 @@ Prefab:
     - target: {fileID: 4926562902084364, guid: 3e70780b5ef1748988791499c6a8e755, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65974283736347016, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4962d62c571a38643b940c6e2ce4a1c1,
+        type: 2}
+    - target: {fileID: 65672612131586308, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4962d62c571a38643b940c6e2ce4a1c1,
+        type: 2}
+    - target: {fileID: 65477446251898004, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4962d62c571a38643b940c6e2ce4a1c1,
+        type: 2}
+    - target: {fileID: 65200930638333682, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 4962d62c571a38643b940c6e2ce4a1c1,
+        type: 2}
+    - target: {fileID: 135901893426901046, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e60bcbf98609641cc874bd0ee2ec5a18,
+        type: 2}
+    - target: {fileID: 114841077616407314, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: torque
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 54203465374605596, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114841077616407314, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: power
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 135477338960377394, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135746340325210586, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135295152412329202, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135127050297091670, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114841077616407314, guid: 3e70780b5ef1748988791499c6a8e755,
+        type: 2}
+      propertyPath: impulse
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e70780b5ef1748988791499c6a8e755, type: 2}
